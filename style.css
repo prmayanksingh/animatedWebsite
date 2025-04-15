@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Nimbus Sans L";
+  src: url(font/NimbusSanL-Reg.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nimbus Sans L";
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  min-height: 100%;
+  padding: 1.5vw 8vw;
+}
+main nav {
+  width: 100%;
+  height: 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main nav #left {
+  display: flex;
+  gap: 2vw;
+}
+main nav #name {
+  transform: translate(-100%);
+}
+main nav h3 {
+  font-size: 0.9vw;
+  font-weight: 500;
+}
+main #section1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16vw;
+}
+main #section1 .left {
+  width: 12vw;
+  height: 20vw;
+  background-color: rgb(228, 170, 170);
+}
+main #section1 .left .text {
+  width: 100%;
+  height: 30%;
+}
+main #section1 .left .text h5 {
+  font-size: 0.8vw;
+  font-weight: 300;
+}
+main #section1 .left .text h2 {
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+main #section1 .left .image {
+  width: 100%;
+  height: 70%;
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */
