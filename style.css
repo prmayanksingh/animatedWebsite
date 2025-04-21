@@ -15,7 +15,6 @@ html, body {
 }
 
 main {
-  height: 100%;
   min-height: 100%;
   padding: 1.5vw 8vw;
 }
@@ -39,30 +38,105 @@ main nav h3 {
 }
 main #section1 {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 16vw;
 }
-main #section1 .left {
-  width: 12vw;
-  height: 20vw;
-  background-color: rgb(228, 170, 170);
+main #section1 .sustain {
+  width: 11vw;
+  height: 22vw;
 }
-main #section1 .left .text {
+main #section1 .sustain .text {
   width: 100%;
   height: 30%;
 }
-main #section1 .left .text h5 {
+main #section1 .sustain .text h5 {
   font-size: 0.8vw;
   font-weight: 300;
 }
-main #section1 .left .text h2 {
-  font-size: 1.5vw;
+main #section1 .sustain .text h2 {
+  font-size: 1.4vw;
   font-weight: 600;
+  letter-spacing: 1px;
 }
-main #section1 .left .image {
+main #section1 .sustain .text p {
+  margin-top: 0.3vw;
+  font-size: 0.7vw;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #868686;
+  line-height: 0.9vw;
+}
+main #section1 .sustain .image {
   width: 100%;
   height: 70%;
   background-color: red;
+  overflow: hidden;
+}
+main #section1 .sustain .image img {
+  width: 100%;
+  height: 100%;
+  scale: 1.5;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0% 140%;
+     object-position: 0% 140%;
+}
+main #section1 .ephemeral {
+  width: 25vw;
+  height: 37vw;
+  background-color: rgb(235, 211, 211);
+  position: relative;
+  gap: 1vw;
+}
+main #section1 .ephemeral #headings {
+  position: absolute;
+  top: -20%;
+  left: -20%;
+}
+main #section1 .ephemeral #headings h1 {
+  font-size: 5vw;
+  font-weight: 400;
+  line-height: 4.8vw;
+  letter-spacing: -0.3vw;
+}
+main #section1 .ephemeral img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main #section1 .ephemeral p {
+  font-size: 1.2vw;
+  font-weight: 500;
+  width: 53%;
+  position: absolute;
+  top: 104%;
+}
+main #section1 .visit {
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 0.7vw;
+}
+main #section1 .visit #circle {
+  width: 2.5vw;
+  height: 2.5vw;
+  border: 1px solid #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #section1 .visit #circle i {
+  font-weight: 400;
+  font-size: 1vw;
+}
+main #section1 .visit h3 {
+  font-size: 0.8vw;
+  font-weight: 400;
+  letter-spacing: 0.7px;
 }/*# sourceMappingURL=style.css.map */
