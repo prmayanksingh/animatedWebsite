@@ -9,14 +9,14 @@
   font-family: "Nimbus Sans L";
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
 }
 
 main {
   min-height: 100%;
-  padding: 1.5vw 8vw;
 }
 main nav {
   width: 100%;
@@ -24,6 +24,7 @@ main nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 2vw 8vw;
 }
 main nav #left {
   display: flex;
@@ -43,6 +44,7 @@ main #section1 {
   justify-content: space-between;
   align-items: center;
   margin-top: 16vw;
+  padding: 3vw 8vw;
 }
 main #section1 .sustain {
   width: 11vw;
@@ -86,8 +88,7 @@ main #section1 .sustain .image img {
 }
 main #section1 .ephemeral {
   width: 25vw;
-  height: 37vw;
-  background-color: rgb(235, 211, 211);
+  min-height: 37vw;
   position: relative;
   gap: 1vw;
 }
@@ -102,18 +103,25 @@ main #section1 .ephemeral #headings h1 {
   line-height: 4.8vw;
   letter-spacing: -0.3vw;
 }
-main #section1 .ephemeral img {
+main #section1 .ephemeral #imgtext {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+main #section1 .ephemeral #imgtext img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-main #section1 .ephemeral p {
+main #section1 .ephemeral #imgtext p {
   font-size: 1.2vw;
   font-weight: 500;
   width: 53%;
-  position: absolute;
-  top: 104%;
 }
 main #section1 .visit {
   height: -moz-fit-content;
@@ -133,10 +141,59 @@ main #section1 .visit #circle {
 }
 main #section1 .visit #circle i {
   font-weight: 400;
-  font-size: 1vw;
+  font-size: 0.9vw;
 }
 main #section1 .visit h3 {
   font-size: 0.8vw;
   font-weight: 400;
   letter-spacing: 0.7px;
+}
+main #motive {
+  padding: 3vw 8vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2vw;
+}
+main #motive h3 {
+  font-size: 1.5vw;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: -0.06vw;
+  color: #959494;
+}
+main #motive p {
+  text-align: right;
+  font-size: 2.1vw;
+  font-weight: 500;
+  width: 75%;
+  line-height: 3.2vw;
+  letter-spacing: -0.13vw;
+}
+main #motive p span {
+  display: inline-block;
+  margin: 0 10px;
+  margin-bottom: -12.5px;
+  background-color: red;
+  border-radius: 50px;
+}
+main #motive p #onespan {
+  width: 4.2vw;
+  height: 2.5vw;
+  background-image: url(./assets/bluegirl.jpg);
+  background-size: cover;
+  background-position: 0% 60%;
+}
+main #motive p #twospan {
+  width: 5.8vw;
+  height: 2.6vw;
+  background-image: url(./assets/shaljam.jpg);
+  background-size: cover;
+  background-position: 0% 47%;
+}
+main #motive p #threespan {
+  width: 4.2vw;
+  height: 2.5vw;
+  background-image: url(./assets/grass.jpg);
+  background-size: cover;
+  background-position: center;
 }/*# sourceMappingURL=style.css.map */
