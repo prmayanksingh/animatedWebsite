@@ -224,4 +224,101 @@ main {
       }
     }
   }
+
+  #picture{
+    width: 100%;
+    height: 100%;
+    padding: 6vw 8vw;
+    padding-left: 17vw;
+    padding-right: 15vw;
+    display: flex;
+    justify-content: space-between;
+    // background-color: blue;
+    
+    #synergy{
+      width: 13vw;
+      height: 28vw;
+      // background-color: rgb(175, 124, 124);
+      display: flex;
+      flex-direction: column;
+      gap: 1vw;
+
+      #image{
+        width: 100%;
+        height: 75%;
+        background-color: blue;
+        overflow: hidden;
+  
+        img{
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          scale: 2.5;
+          object-position: 70% 0%;
+        }
+      }
+
+      #text{
+        display: flex;
+        flex-direction: column;
+        gap: 0.3vw;
+
+        h2{
+          font-size: 1.5vw;
+          font-weight: 500;
+          letter-spacing: -1px;
+        }
+
+        p{
+          font-size: 0.8vw;
+          width: 90%;
+          color: #646464;
+          font-weight: 600;
+        }
+      }
+    }
+
+    #harmony{
+      width: 23vw;
+      height: 41vw;
+      // background-color: rgb(173, 59, 59);
+      display: flex;
+      flex-direction: column;
+      gap: 1vw;
+
+      #image{
+        width: 100%;
+        height: 85%;
+        overflow: hidden;
+
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          scale: 1.4;
+        }
+      }
+
+      #text{
+        display: flex;
+        flex-direction: column;
+        align-self: self-end;
+        gap: 0.3vw;
+        width: 60%;
+        text-align: right;
+
+        h2{
+          font-size: 1.7vw;
+          font-weight: 500;
+          letter-spacing: -1px;
+        }
+
+        p{
+          font-size: 0.8vw;
+          font-weight: 600;
+          color: #646464;
+        }
+      }
+    }
+  }
 }

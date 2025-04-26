@@ -196,4 +196,88 @@ main #motive p #threespan {
   background-image: url(./assets/grass.jpg);
   background-size: cover;
   background-position: center;
+}
+main #picture {
+  width: 100%;
+  height: 100%;
+  padding: 6vw 8vw;
+  padding-left: 17vw;
+  padding-right: 15vw;
+  display: flex;
+  justify-content: space-between;
+}
+main #picture #synergy {
+  width: 13vw;
+  height: 28vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+main #picture #synergy #image {
+  width: 100%;
+  height: 75%;
+  background-color: blue;
+  overflow: hidden;
+}
+main #picture #synergy #image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  scale: 2.5;
+  -o-object-position: 70% 0%;
+     object-position: 70% 0%;
+}
+main #picture #synergy #text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3vw;
+}
+main #picture #synergy #text h2 {
+  font-size: 1.5vw;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+main #picture #synergy #text p {
+  font-size: 0.8vw;
+  width: 90%;
+  color: #646464;
+  font-weight: 600;
+}
+main #picture #harmony {
+  width: 23vw;
+  height: 41vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+main #picture #harmony #image {
+  width: 100%;
+  height: 85%;
+  overflow: hidden;
+}
+main #picture #harmony #image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  scale: 1.4;
+}
+main #picture #harmony #text {
+  display: flex;
+  flex-direction: column;
+  align-self: self-end;
+  gap: 0.3vw;
+  width: 60%;
+  text-align: right;
+}
+main #picture #harmony #text h2 {
+  font-size: 1.7vw;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+main #picture #harmony #text p {
+  font-size: 0.8vw;
+  font-weight: 600;
+  color: #646464;
 }/*# sourceMappingURL=style.css.map */
