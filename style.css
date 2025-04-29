@@ -33,9 +33,11 @@ main nav #left {
 main nav #name {
   transform: translate(-100%);
 }
-main nav h3 {
+main nav a {
   font-size: 0.9vw;
   font-weight: 500;
+  color: #000;
+  text-decoration: none;
 }
 main #section1 {
   width: 100%;
@@ -46,24 +48,24 @@ main #section1 {
   margin-top: 16vw;
   padding: 3vw 8vw;
 }
-main #section1 .sustain {
+main #section1 #sustain {
   width: 11vw;
   height: 22vw;
 }
-main #section1 .sustain .text {
+main #section1 #sustain .text {
   width: 100%;
   height: 30%;
 }
-main #section1 .sustain .text h5 {
+main #section1 #sustain .text h5 {
   font-size: 0.8vw;
   font-weight: 300;
 }
-main #section1 .sustain .text h2 {
+main #section1 #sustain .text h2 {
   font-size: 1.4vw;
   font-weight: 600;
   letter-spacing: 1px;
 }
-main #section1 .sustain .text p {
+main #section1 #sustain .text p {
   margin-top: 0.3vw;
   font-size: 0.7vw;
   font-weight: 300;
@@ -71,39 +73,36 @@ main #section1 .sustain .text p {
   color: #868686;
   line-height: 0.9vw;
 }
-main #section1 .sustain .image {
+main #section1 #sustain .image {
   width: 100%;
   height: 70%;
-  background-color: red;
-  overflow: hidden;
 }
-main #section1 .sustain .image img {
+main #section1 #sustain .image img {
   width: 100%;
   height: 100%;
-  scale: 1.5;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 0% 140%;
      object-position: 0% 140%;
 }
-main #section1 .ephemeral {
+main #section1 #ephemeral {
   width: 25vw;
   min-height: 37vw;
   position: relative;
   gap: 1vw;
 }
-main #section1 .ephemeral #headings {
+main #section1 #ephemeral #headings {
   position: absolute;
-  top: -18%;
-  left: -20%;
+  top: -21%;
+  left: -22%;
 }
-main #section1 .ephemeral #headings h1 {
-  font-size: 5vw;
+main #section1 #ephemeral #headings h1 {
+  font-size: 5.5vw;
   font-weight: 400;
-  line-height: 4.8vw;
+  line-height: 5.4vw;
   letter-spacing: -0.3vw;
 }
-main #section1 .ephemeral #imgtext {
+main #section1 #ephemeral #imgtext {
   height: -moz-fit-content;
   height: fit-content;
   width: -moz-fit-content;
@@ -112,25 +111,25 @@ main #section1 .ephemeral #imgtext {
   flex-direction: column;
   gap: 1vw;
 }
-main #section1 .ephemeral #imgtext img {
+main #section1 #ephemeral #imgtext img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-main #section1 .ephemeral #imgtext p {
+main #section1 #ephemeral #imgtext p {
   font-size: 1.2vw;
   font-weight: 500;
   width: 53%;
 }
-main #section1 .visit {
+main #section1 #visit {
   height: -moz-fit-content;
   height: fit-content;
   display: flex;
   align-items: center;
   gap: 0.7vw;
 }
-main #section1 .visit #circle {
+main #section1 #visit #circle {
   width: 2.5vw;
   height: 2.5vw;
   border: 1px solid #000;
@@ -139,11 +138,11 @@ main #section1 .visit #circle {
   justify-content: center;
   align-items: center;
 }
-main #section1 .visit #circle i {
+main #section1 #visit #circle i {
   font-weight: 400;
   font-size: 0.9vw;
 }
-main #section1 .visit h3 {
+main #section1 #visit h3 {
   font-size: 0.8vw;
   font-weight: 400;
   letter-spacing: 0.7px;
@@ -216,7 +215,6 @@ main #picture #synergy {
 main #picture #synergy #image {
   width: 100%;
   height: 75%;
-  background-color: blue;
   overflow: hidden;
 }
 main #picture #synergy #image img {
@@ -224,7 +222,6 @@ main #picture #synergy #image img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  scale: 2.5;
   -o-object-position: 70% 0%;
      object-position: 70% 0%;
 }
@@ -261,7 +258,6 @@ main #picture #harmony #image img {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  scale: 1.4;
 }
 main #picture #harmony #text {
   display: flex;
@@ -287,11 +283,11 @@ main #packaging {
   display: flex;
   gap: 3vw;
 }
-main #packaging #image {
+main #packaging #bimage {
   height: 100%;
   width: 66%;
 }
-main #packaging #image img {
+main #packaging #bimage img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
