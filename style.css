@@ -94,7 +94,7 @@ main #section1 .ephemeral {
 }
 main #section1 .ephemeral #headings {
   position: absolute;
-  top: -20%;
+  top: -18%;
   left: -20%;
 }
 main #section1 .ephemeral #headings h1 {
@@ -280,4 +280,84 @@ main #picture #harmony #text p {
   font-size: 0.8vw;
   font-weight: 600;
   color: #646464;
+}
+main #packaging {
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  gap: 3vw;
+}
+main #packaging #image {
+  height: 100%;
+  width: 66%;
+}
+main #packaging #image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0% 67%;
+     object-position: 0% 67%;
+}
+main #packaging #text {
+  height: 100%;
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.4vw;
+}
+main #packaging #text h1 {
+  font-size: 2.5vw;
+  font-weight: 500;
+  width: 60%;
+  line-height: 2.5vw;
+  letter-spacing: -2px;
+}
+main #packaging #text p {
+  font-size: 1vw;
+  width: 50%;
+  color: #494949;
+  letter-spacing: -0.7px;
+}
+main #future {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+main #future video {
+  width: 100%;
+  position: absolute;
+  -o-object-fit: fill;
+     object-fit: fill;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main #future #text {
+  z-index: 99;
+  width: 14vw;
+  height: 8vw;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5vw;
+  border-radius: 10px;
+}
+main #future #text h1 {
+  font-size: 1.7vw;
+}
+main #future #text button {
+  background-color: transparent;
+  font-size: 0.6vw;
+  padding: 0.7vw 1.4vw;
+  border-radius: 50px;
+  border: 1px solid #c6c6c6;
+  color: #6f6f6f;
 }/*# sourceMappingURL=style.css.map */
