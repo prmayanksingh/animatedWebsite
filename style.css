@@ -357,4 +357,23 @@ main #future #text button {
   border-radius: 50px;
   border: 1px solid #c6c6c6;
   color: #6f6f6f;
+}
+main #responsive {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  main {
+    display: none;
+  }
+  #responsive {
+    display: initial;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #responsive h1 {
+    font-size: 3.4vw;
+  }
 }/*# sourceMappingURL=style.css.map */
