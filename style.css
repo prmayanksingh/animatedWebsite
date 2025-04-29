@@ -330,6 +330,7 @@ main #future {
   overflow: hidden;
 }
 main #future video {
+  opacity: 0;
   width: 100%;
   position: absolute;
   -o-object-fit: fill;
